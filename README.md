@@ -48,14 +48,14 @@ Sure, here's a simplified version of what such a dataset might look like:
 - **Data Cleaning Practice**: You can include missing values, duplicate entries, or inconsistent formatting to provide opportunities for data cleaning practice.
 
 ## Cleaning Data in Excel
--	(Multiple orders were assigned to the same order Id for Id’s 56-60. Fixed by moving the second set of duplicates up 5 along w the nonduplicates that come after i.e. 56&#8594;61…61&#8594;66…75&#8594;80)
+-	Multiple orders were assigned to the same order Id for Id’s 56-60. Fixed by moving the second set of duplicates up 5 along w the nonduplicates that come after i.e. 56&#8594;61…61&#8594;66…75&#8594;80
 -	Added Total Price column to Order Log (Not to be confused with Order Total column which will be added later)
 -	Updated Last_Restocked column in SSS_StockControl
 - Exported tables as CSVs
 -	Imported CSVs into Azure Data Studio to be queried with SQL
 
 ## Analyzing Data with SQl
-THe SQL queries I used to analyze the data (and generate the following visualizations) can be found [HERE](https://github.com/r7ckyj/Sammy-sSoccerShop/blob/1fa59e76ebdf10ff796e4bb36d564aa871fe7630/SSSqueries.sql)
+The SQL queries I used to analyze the data (and generate the following visualizations) can be found [HERE](https://github.com/r7ckyj/Sammy-sSoccerShop/blob/1fa59e76ebdf10ff796e4bb36d564aa871fe7630/SSSqueries.sql)
 
 ## Visualizations With Tableau
 <p align="center">
