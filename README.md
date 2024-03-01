@@ -1,6 +1,6 @@
 # Sammy's Soccer Shop Weekly Analysis
 ## Project Summary
-Sammy’s Soccer Shop is a fictional soccer equipment business. Their philosophy is to provide reliable, industry-standard equipment at a reasonable price. They receive orders from all around the world. Recently, their Order Management Analyst was diagnosed with a strained left pinky finger and deemed unable to perform the weekly analysis. To fill the position, they hired me. I took on the responsibilities of the role starting on January 1, 2024.
+Sammy’s Soccer Shop is a fictional soccer equipment business. Their philosophy is to provide reliable, industry-standard equipment at a reasonable price. They receive orders from all around the world. Recently, their Order Management Analyst was diagnosed with a strained left pinky finger and deemed unable to perform the weekly analysis. To fill the position, they hired me to take on the responsibilities of the role starting on January 7th, 2024.
 
 ### Business Task
 Perform general analysis on the order log and stock control for Sammy’s Soccer Shop for the week of January 1, 2024. Produce two charts, one that shows daily revenue and one that shows the daily bestselling item as a percentage of total units sold for each day of the week.
@@ -48,11 +48,11 @@ Sure, here's a simplified version of what such a dataset might look like:
 - **Data Cleaning Practice**: You can include missing values, duplicate entries, or inconsistent formatting to provide opportunities for data cleaning practice.
 
 ## Cleaning Data in Excel
--	(Multiple orders were assigned to the same order Id for Id’s 56-60. Fixed by moving the second set of duplicates up 5 along w the nonduplicates that come after i.e. 5661… 6166…7580 )
+-	(Multiple orders were assigned to the same order Id for Id’s 56-60. Fixed by moving the second set of duplicates up 5 along w the nonduplicates that come after i.e. 56&#8594;61…61&#8594;66…75&#8594;80)
 -	Added Total Price column to Order Log (Not to be confused with Order Total column which will be added later)
 -	Updated Last_Restocked column in SSS_StockControl
 - Exported tables as CSVs
--	Imported csv’s into Azure Data Studio to be queried with SQL
+-	Imported CSVs into Azure Data Studio to be queried with SQL
 
 ## Analyzing Data with SQl
 THe SQL queries I used to analyze the data (and generate the following visualizations) can be found [HERE](https://github.com/r7ckyj/Sammy-sSoccerShop/blob/1fa59e76ebdf10ff796e4bb36d564aa871fe7630/SSSqueries.sql)
@@ -61,7 +61,7 @@ THe SQL queries I used to analyze the data (and generate the following visualiza
 <p align="center">
   <img width="460" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/15ce17ca-5ed8-4367-8556-def803d3f6e7">
 </p>
-Our Soccer Balls were the bestselling item for 3/6 days this week (tied w/ Lanyards on Tuesday) and made up about 30% of total sales for Wednesday.
+Along with being our week's bestseller, our Soccer Balls were the bestselling item for 3/6 days this week (tied w/ Lanyards on Tuesday) and made up about 30% of total sales for Wednesday.
 
 <p align="center">
   <img width="231" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/c7226c87-60cf-4ffd-a2b9-021a0c7a0841">
@@ -75,3 +75,4 @@ The most concerning result I discovered was that a few orders contained understo
 
 
 ## Conclusion
+While overall a successful week, there were a few hiccups in the datasets that hindered this from being a perfect week for our company. However, with the cleaned data and analysis provided, I believe we are on track to sustain the growth and integrity of our business.
