@@ -55,8 +55,7 @@ Sure, here's a simplified version of what such a dataset might look like:
 -	Imported csv’s into Azure Data Studio to be queried with SQL
 
 ## Analyzing Data with SQl
-
-(Add Screenshots of SQL queries)
+THe SQL queries I used to analyze the data (and generate the following visualizations) can be found [HERE](https://github.com/r7ckyj/Sammy-sSoccerShop/blob/1fa59e76ebdf10ff796e4bb36d564aa871fe7630/SSSqueries.sql)
 
 ## Visualizations With Tableau
 
