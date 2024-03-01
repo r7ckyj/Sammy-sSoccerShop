@@ -59,7 +59,7 @@ THe SQL queries I used to analyze the data (and generate the following visualiza
 
 ## Visualizations With Tableau
 
-<img width="418" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/15ce17ca-5ed8-4367-8556-def803d3f6e7">
+<img width="600" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/15ce17ca-5ed8-4367-8556-def803d3f6e7">
 Our Soccer Balls were the bestselling item for 3/6 days this week (tied w/ Lanyards on Tuesday) and made up about 30% of total sales for Wednesday.
 
 <img width="231" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/c7226c87-60cf-4ffd-a2b9-021a0c7a0841">
