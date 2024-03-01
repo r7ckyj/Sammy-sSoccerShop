@@ -60,11 +60,13 @@ THe SQL queries I used to analyze the data (and generate the following visualiza
 ## Visualizations With Tableau
 
 <img width="418" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/15ce17ca-5ed8-4367-8556-def803d3f6e7">
+Our Soccer Balls were the bestselling item for 3/6 days this week (tied w/ Lanyards on Tuesday) and made up about 30% of total sales for Wednesday.
 
 <img width="231" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/c7226c87-60cf-4ffd-a2b9-021a0c7a0841">
+We brought in the most money on Saturday, and the least on Wednesday.
 
 <img width="482" alt="image" src="https://github.com/r7ckyj/SammysSoccerShop/assets/156801040/7e525a0d-e7b4-4540-ba1f-8f1da4562d19">
-
+The most concerning result I discovered was that a few orders contained understocked items. These orders won’t be able to be processed until the items are restocked, which should happen ASAP.
 
 
 ## Conclusion
